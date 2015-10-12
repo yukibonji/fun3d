@@ -1,0 +1,14 @@
+language: csharp
+solution: fun3d.sln
+mono:
+  - latest
+install:
+  - ./build.sh Clean
+script:
+  - ./build.sh
+notifications:
+  email:
+    recipients:
+      - bertrand.cachet@gmail.com
+    on_success: change
+    on_failure: always
