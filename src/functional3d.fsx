@@ -4,12 +4,12 @@
 // (c) Tomas Petricek (tomas@tomasp.net)
 // Distributed under the open-source MS-PL license
 // --------------------------------------------------------------------------------------
+module Functional3D
+
 #if INTERACTIVE
 #r "../packages/OpenTK/lib/NET40/OpenTK.dll"
 #r "../packages/OpenTK.GLControl/lib/NET40/OpenTK.GLControl.dll"
 #endif
-
-module Functional3D
 
 open System
 open System.Drawing

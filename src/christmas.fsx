@@ -1,5 +1,7 @@
+module Christmas
+
 #if INTERACTIVE
-#load "functional3d.fs"
+#load "functional3d.fsx"
 #endif
 
 open System.Drawing
