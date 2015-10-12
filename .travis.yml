@@ -3,9 +3,9 @@ solution: fun3d.sln
 mono:
   - latest
 install:
-  - ./build.sh Clean
+  - ./scripts/build.sh Clean
 script:
-  - ./build.sh
+  - ./scripts/build.sh
 notifications:
   email:
     recipients:
